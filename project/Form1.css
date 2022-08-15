@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1{text-align: center;}
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+.box{
+    margin:0 auto; 
+    width:1000px ;
+    padding:20px;
+    background:#be5555;
+    border:2px solid #333;
+}
+.box .form-control{
+    background:#f3f5f6;
+    border:2px solid #333;
+}
+.submit{
+    text-align: center;
+}
+.box1{
+    margin: auto; 
+    width:500px ;
+    padding:30px;
+    margin-top: 25px;
+    background:#be5555;
+    border:2px solid #333;
+}
+.box1 .form-control{
+    background:#f3f5f6;
+    border:2px solid #333;
+}
+

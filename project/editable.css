@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+.box{
+    height: 500px;
+    overflow: auto;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+.box thead th{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: #ce3451;
+    font-size: 15px;
+    font-weight: 800;
+}
+th,td{
+    border: 1px solid #dddddd;
+    padding: 10px;
+    font-size: 14px;
+}
+td a{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: #ce3451;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+}
